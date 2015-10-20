@@ -34,6 +34,6 @@
     "traceur-runner": "^2.0.1"
   },
   "dependencies": {
-    "especially": "^2.0.0"
+    "especially": "git+ssh://git@github.com:birdy-/especially.git"
   }
 }
