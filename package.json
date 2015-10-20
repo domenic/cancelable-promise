@@ -21,6 +21,11 @@
     "test-non-aplus": "mocha --compilers js:mocha-traceur test/*.js",
     "test": "npm run test-aplus-promise && npm run test-aplus-cancelable-promise && npm run test-non-aplus"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "devDependencies": {
     "mocha": "^2.2.4",
     "mocha-traceur": "^2.1.0",
@@ -29,6 +34,6 @@
     "traceur-runner": "^2.0.1"
   },
   "dependencies": {
-    "especially": "^2.0.0"
+    "especially": "git+ssh://git@github.com:birdy-/especially.git"
   }
 }
