@@ -20,6 +20,11 @@
     "spec": "ecmarkup spec.html out/index.html",
     "watch": "ecmarkup --watch spec.html out/index.html"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "devDependencies": {
     "ecmarkup": "^3.3.1"
   }
